@@ -11,30 +11,25 @@
     align-items: center;
 }
 
-.legenda{
-    position: relative;
-    margin: 25px;
-    width: 80%;
-    height: 50px;
-    background-color: salmon;
-}
-
 .eixoY{
     position: relative;
-    width: 10%;
-    height: 85%;
+    width: 50%;
+    height: 10%;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-orientation:sideways-right;
+    transform: rotate(90deg);
 }
 
 .eixoX{
     position: relative;
     width: 100%;
     height: 15%;
-    background-color: silver;
+    background-color: rgb(52, 89, 116);
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,9 +37,9 @@
 
 .graficoInterno{
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 85%;
-    background-color: violet;
+    background-color: rgb(156, 182, 221);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -53,7 +48,14 @@
 
 .barra{
     position: relative;
-    height: 50px;
-    background-color: blueviolet;
+    height: 60px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
 }
 
+.legenda{
+    font-weight: 500;
+    text-shadow: black 2px 2px 5px;
+}

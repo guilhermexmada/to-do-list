@@ -2,7 +2,11 @@
 
 include '../conexao/conn.php';
 
-$condicao = 'tarefas';
+if(isset($_SESSION['criterio'])){
+    $condicao = $_SESSION['criterio'];
+} else {
+    $condicao = "tarefas";
+}
 
 if ($condicao == 'tarefas') {
     $sql = "SELECT cpf_encarregado,nome_tarefa,status_tarefa FROM tarefas;";
@@ -35,9 +39,10 @@ if ($condicao == 'tarefas') {
     $per_finalizado = ($finalizado*100) / $total_tarefas;
 
     echo "
-    <div class='barra' style='width:".$per_nao_iniciado."%; background-color: white;'>Não iniciadas</div>
-    <div class='barra' style='width:".$per_em_andamento."%; background-color: yellow;'>Em andamento</div>
-    <div class='barra' style='width:".$per_finalizado."%; background-color: green;'>Finalizadas</div>
-        
+    <div class='barra' style='width:".$per_nao_iniciado."%; background-color: white;'><br> ".$nao_iniciado."</div>
+    <div class='barra' style='width:".$per_em_andamento."%; background-color: #f97316;'><br>".$em_andamento."</div>
+    <div class='barra' style='width:".$per_finalizado."%; background-color: #ef4444;'><br>".$finalizado."</div>
     ";
+    $descricao_grafico = "Análise de tarefas";
+    ;
 }

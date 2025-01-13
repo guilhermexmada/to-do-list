@@ -64,25 +64,21 @@
         </section>
 
         <section>
-            <form action="../back//grafico.php" method="post" id="formGrafico">
                 <h1 class="title">Controle de tarefas</h1>
-                <label>Dado de visualização</label>
-                <select name="controle_tarefas" class="formInput">
-                    <option value="tarefas">Tarefas cumpridas</option>
-                    <option value="produtividade">Produtividade do time</option>
-                </select>
-                <button type="submit" class="formBtn">Gerar gráfico</button>
-            </form>
 
-            <div class="legenda">legenda</div>
+            <!--<div class="legenda">legenda</div>-->
             <div class="grafico">
-                <div class="eixoY">Status das tarefas</div>
+                <!--<div class="eixoY">Status das tarefas</div>-->
                 <div class="graficoInterno">
                     <?php 
                         include '../back/grafico.php';
                     ?>
                 </div>
-                <div class="eixoX"></div>
+                <div class="eixoX">
+                    <p class="legenda" style="color: white;">Não iniciadas</p>
+                    <p class="legenda" style="color: #f97316;">Em andamento</p>
+                    <p class="legenda" style="color: #ef4444;">Finalizadas</p>
+                </div>
             </div>
 
 

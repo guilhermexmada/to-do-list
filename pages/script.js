@@ -33,10 +33,13 @@ function abreAviso(cpf){
     var inputCpf = document.createElement("input");
     var inputTitulo = document.createElement("input");
     var inputCorpo = document.createElement("textarea");
+    var txtCpf = document.createElement("p");
+    var txtTitulo = document.createElement("p");
+    var txtCorpo = document.createElement("p");
 
     // div
   aviso.style.width = "220px";
-  aviso.style.height = "220px";
+  aviso.style.height = "300px";
   aviso.style.position = "fixed";
   aviso.style.top = "50%";
   aviso.style.left = "50%";
@@ -81,13 +84,20 @@ function abreAviso(cpf){
   inputTitulo.maxLength = 50;
   inputCorpo.name = "corpo";
   inputCorpo.type = "textarea";
-  inputCorpo.style.height = "20px";
+  inputCorpo.style.height = "40px";
   inputCorpo.style.width = "200px";
   inputCorpo.maxLength = 100;
 
-  
+  //textos
+  txtCpf.innerHTML = "CPF destinatário";
+  txtTitulo.innerHTML = "Título do aviso";
+  txtCorpo.innerHTML = "Corpo do aviso";
+
+  form.appendChild(txtCpf);
   form.appendChild(inputCpf);
+  form.appendChild(txtTitulo);
   form.appendChild(inputTitulo);
+  form.appendChild(txtCorpo);
   form.appendChild(inputCorpo);
   form.appendChild(btnFechar);
   form.appendChild(btnEnviar);
