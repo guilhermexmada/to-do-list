@@ -50,7 +50,11 @@ Atualmente, o website não possui uma página de cadastro, **apenas de login**. 
 
 Para isso, entre no HeidiSQL, depois na sessão que você criou e no banco de dados **todolist** baixado. Após, procure a tabela **equipe**, selecione a aba **dados** e clique com o botão direito do mouse. Por fim, escolha a opção **inserir registro** e adicione os dados para o usuário inicial. 
 
-📢 ***Esse problema será resolvido futuramente, com a adição da página de cadastro***
+As duas senhas de acesso são:
+- **func** : para acesso do funcionário, sem opções avançadas
+- **admin** : para acesso do administrador, com opções avançadas
+
+📢 ***Esse problema será resolvido futuramente, com a adição da página de primeiro cadastro***
 
 ## ⚠️ Gráfico inacabado
 
