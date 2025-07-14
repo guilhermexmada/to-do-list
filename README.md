@@ -7,8 +7,8 @@ Este website foi construído com intenção de estudar tratamento de dados, oper
 
 Portanto, o código pode parecer um pouco "dirty and quick" 😅, mas esse projeto me ajudou a entender melhor sobre desenvolvimento para web, principalmente na área de back-end.
 
-| ![image](https://github.com/user-attachments/assets/28717dd5-e48b-4280-81dd-279d8e1b85df) | ![image](https://github.com/user-attachments/assets/02db2082-01bb-4db3-b990-e7c51a494fa8) | 
-| ![image](https://github.com/user-attachments/assets/e79b9d10-ec9a-4d91-ab3a-65d17fd1aa3c) | ![image](https://github.com/user-attachments/assets/4afb4557-0346-46a7-9f49-7456cfd31056) |
+ ![image](https://github.com/user-attachments/assets/28717dd5-e48b-4280-81dd-279d8e1b85df)  ![image](https://github.com/user-attachments/assets/02db2082-01bb-4db3-b990-e7c51a494fa8) 
+ ![image](https://github.com/user-attachments/assets/e79b9d10-ec9a-4d91-ab3a-65d17fd1aa3c)  ![image](https://github.com/user-attachments/assets/4afb4557-0346-46a7-9f49-7456cfd31056) 
 
 ## ⚙️ Funcionalidades
 
